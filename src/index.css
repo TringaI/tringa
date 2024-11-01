@@ -67,3 +67,10 @@ body{
   color: white;
   font-weight: bold;
 }
+
+@media screen and (max-width: 780px) {
+  .headings{
+    font-size: 25px;
+  }
+
+}

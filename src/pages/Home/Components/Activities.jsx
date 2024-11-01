@@ -64,7 +64,7 @@ function Activities() {
                     <div className="col-span-12 lg:col-span-6 activities-containers">
                         <h1 className="activities-titles">Sports</h1>
                         <p className="activities-p codec ">
-                            Initiated my basketball journey at the age of <b className='composebold'>8</b>, dedicating eight years to the sport and participating in the state junior championship. Simultaneously, I developed an interest in karate, commencing practice in first grade and concluding in the fifth grade, achieving success with a total of 13 medals in various competitions and 20+ certificates.
+                            Initiated my basketball journey at the age of <b className='composebold'>8</b>, dedicating eight years to the sport and participating in the state junior championship. Simultaneously, I developed an interest in karate, commencing practice in first grade and concluding in the fifth grade, achieving success with a total of  <b className='composebold'>13</b>, medals in various competitions and  <b className='composebold'>20+</b>, certificates.
                         </p>
                     </div>
 

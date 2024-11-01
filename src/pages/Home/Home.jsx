@@ -17,8 +17,8 @@ function Index() {
                 <h1 className="headings codec">startups</h1>
                 <hr />
                 <div className="fotoel-container mt-10 flex flex-col justify-center items-end startup-containers">
-                    <img className='w-[15%]' src="/images/startups/fotoel/image2.png" alt="" />
-                    <div className="grid grid-cols-12 md:gap-20 mt-20 ">
+                    <img className='w-[20%] lg:w-[15%]' src="/images/startups/fotoel/image2.png" alt="" />
+                    <div className="grid grid-cols-12 md:gap-5 mt-20 ">
                         <div className="col-span-12 lg:col-span-6">
                             <img src="/images/startups/fotoel/image.png" className='w-full' alt="" />
 
@@ -27,7 +27,7 @@ function Index() {
                             <img src="/images/startups/fotoel/prototype.png" className='w-full' alt="" />
                         </div>
                     </div>
-                    <p className='startup-p codec text-[20px] mt-5'>
+                    <p className='startup-p codec text-[15px] lg:text-[20px] mt-5'>
                         Fotoel, short for "food to electricity," is a product that automates waste separation by
                         material and transforms food waste into energy using microbial fuel cells. Our first prototype was built with simpler materials and sensors, and now we're nearing the launch of the first fully developed
                         product. We’ve secured funding through multiple hackathons and partnered with various companies and organizations for ongoing support.
@@ -39,8 +39,8 @@ function Index() {
                 <br /><br />
                 {/* miket */}
                 <div className="fotoel-container mt-10 flex flex-col justify-center startup-s-container ">
-                    <img className='w-[15%]' src="/images/startups/miket/brand.png" alt="" />
-                    <div className="grid grid-cols-12 md:gap-20 mt-10 ">
+                    <img className='w-[20%] lg:w-[15%]' src="/images/startups/miket/brand.png" alt="" />
+                    <div className="grid grid-cols-12 md:gap-3 mt-10 ">
                         <div className="col-span-12 lg:col-span-6">
                             <img src="/images/startups/miket/2.png" className='w-full' alt="" />
 
@@ -62,11 +62,11 @@ function Index() {
                 {/* flowdev/merrflake */}
                 <div className="fotoel-container mt-10 flex flex-col justify-center items-end startup-containers">
                     <div className="flex w-full justify-end items-end">
-                    <img className='w-[7%]' src="/images/startups/flowdev/flowdevlogo.png" alt="" />
-                    <img className='w-[4%]' src="/images/startups/flowdev/logo.png" alt="" />
+                    <img className='w-[10%] lg:w-[7%]' src="/images/startups/flowdev/flowdevlogo.png" alt="" />
+                    <img className='w-[6.5%] lg:w-[4%]' src="/images/startups/flowdev/logo.png" alt="" />
 
                     </div>
-                    <div className="grid grid-cols-12 md:gap-20 mt-20 ">
+                    <div className="grid grid-cols-12 md:gap-3 mt-20 ">
                         <div className="col-span-12 lg:col-span-6">
                             <img src="/images/startups/flowdev/flowd.png" className='w-full mt-5' alt="" />
 
@@ -75,7 +75,7 @@ function Index() {
                             <img src="/images/startups/flowdev/merrfrlae.png" className='w-full mt-5' alt="" />
                         </div>
                     </div>
-                    <p className='startup-p codec text-[20px] mt-5'>
+                    <p className='startup-p codec text-[15px] lg:text-[20px] mt-5'>
                     Flowdev Agency and Merrflake are digital companies that provide a wide 
                     range of digital solutions, from website development to comprehensive digital marketing services.;
                       
