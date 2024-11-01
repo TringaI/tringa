@@ -51,7 +51,7 @@ const CCarosel = () => {
                     </div>
                     <div className="inner">
                         <div className="slide">
-                            <img src="/images/carosel-images/img3.jpg" alt="" />
+                            <img src="/images/carosel-images/image.png" alt="" />
                         </div>
                     </div>
                 </div>

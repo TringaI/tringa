@@ -59,7 +59,9 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #090909;
 }
-
+a{
+  text-decoration: underline;
+}
 
 /* globals */
 .headings{
@@ -74,3 +76,4 @@ body{
   }
 
 }
+
