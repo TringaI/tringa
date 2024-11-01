@@ -1,0 +1,112 @@
+/* Panorama effect container */
+.panorama {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 12000px; /* Increases the 3D effect */
+    transform: scale(0.5);
+    z-index: 99;
+}
+
+/* Carousel styling */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+    width: 100%;
+    height:  100%;
+    position: relative;
+}
+
+
+/* Individual carousel item styling */
+.carousel-item {
+    position: absolute;
+    width:50%;
+    height: 600px;
+    transform-origin: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05) ; /* Adds a slight curve to each image */
+}
+
+
+.carousel-item:nth-child(1) {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 400, 1); /* Adjust the last value for height */
+}
+
+.carousel-item:nth-child(2) {
+    transform: matrix3d(0.707, 0, 0.707, 0, 0, 1, 0, 0, -0.707, 0, 0.707, 0, 0, 0, 400, 1); /* 90 degrees */
+}
+
+.carousel-item:nth-child(3) {
+    transform: matrix3d(0, 0, 1, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 400, 1); /* 180 degrees */
+}
+
+.carousel-item:nth-child(4) {
+    transform: matrix3d(-0.707, 0, 0.707, 0, 0, 1, 0, 0, -0.707, 0, -0.707, 0, 0, 0, 400, 1); /* 270 degrees */
+}
+
+
+// awards
+.awards-main-title{
+    color: #ff95ba;
+    font-size: 50px;
+}
+.awards-time{
+    color: rgb(251, 126, 147);
+}
+.awards-items{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+ul{
+    list-style-type: circle;
+}
+.awards-images{
+    height: 500px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+.activities-main-title{
+    color: #ff95ba;
+    font-size: 50px;
+}
+.activities-titles{
+    color: white;
+    font-size: 30px;
+}
+.activities-containers{
+    background-color: rgb(16, 1, 11);
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: 3px solid rgb(64, 11, 31);
+}
+.activities-p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer-title{
+    color: #ff95ba;
+    font-size: 70px;
+    font-weight: bold;
+}
+.footer-p{
+    color: white;
+    font-size: 20px;
+}
