@@ -53,7 +53,7 @@ function Index() {
                                 women in ICT. While our primary mission is to empower women, we’re dedicated to supporting
                                 the entire ICT community. We’ve organized hackathons, internships, and conferences to create
                                 opportunities for everyone interested in ICT. So far, we’ve successfully launched a branch at
-                                the University of Pristina and are excited about future expansions. We’re grateful for the support
+                                the University of Pristina in collobartion with USAID, and are excited about future expansions. We’re grateful for the support
                                 of major sponsors, including Kodelabs, Red Bull, Gjirafa, and KosovaJob.
                                 <br />
                                 <a href="https://miket.vercel.app/"><b>Visit Website</b></a>
