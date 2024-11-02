@@ -10,7 +10,7 @@ function Index() {
             <div className="w-full pt-40 flex flex-col items-center justify-center">
             <img src="/images/me/tringaLogo.png" className='w-[5%] lg:w-[3%]' alt="" />
 
-                <h3 className="codec second-heading mt-5">Founder & Engineer</h3>
+                <h3 className="codec second-heading mt-5">Founder & Tech Developer</h3>
                 <h1 className="title text-[20vw] lg:text-[10vw] composebold w-full text-center">TRINGA IBRAHIMI</h1>
             </div>
             <CCarosel />
