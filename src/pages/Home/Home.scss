@@ -60,6 +60,11 @@
     color: rgb(251, 126, 147);
 }
 
+.work-containers{
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: 3px solid rgb(64, 11, 31);
+}
 @media screen and (max-width:780px){
     .title{
      line-height:20vw;

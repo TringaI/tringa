@@ -4,6 +4,7 @@ import CCarosel from './Components/CCarosel';
 import Awards from './Components/Awards';
 import Activities from './Components/Activities';
 import Footer from './Components/Footer';
+import Work from './Components/Work';
 function Index() {
     return (
         <div className='w-full flex flex-col justify-center items-center'>
@@ -107,6 +108,7 @@ function Index() {
             </div>
 
             <Awards />
+            <Work/>
             <Activities />
             <Footer />
         </div>

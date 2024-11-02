@@ -31,7 +31,7 @@ const CCarosel = () => {
     }, []);
 
     return (
-        <div className="main-cont h-[130vh] lg:h-[100vh] mt-20">
+        <div className="main-cont lg:h-[130vh] lg:h-[100vh] mt-20">
             <section className="main">
                 <div className="outer" ref={carouselRef}>
                     <div className="inner">
