@@ -19,7 +19,7 @@ function Index() {
                 <h1 className="headings codec">startups</h1>
                 <hr />
                 <div className="fotoel-container mt-10 flex flex-col justify-center items-end startup-containers">
-                    <img className='w-[20%] lg:w-[15%]' src="/images/startups/fotoel/image2.png" alt="" />
+                    <img className='w-[20%] lg:w-[15%] h-auto ' src="/images/startups/fotoel/image2.png" alt="" />
                     <div className="grid grid-cols-12 md:gap-5 mt-20 ">
                         <div className="col-span-12 lg:col-span-6">
                             <img src="/images/startups/fotoel/image.png" className='w-full' alt="" />
@@ -41,7 +41,7 @@ function Index() {
                 <br /><br />
                 {/* miket */}
                 <div className="fotoel-container mt-10 flex flex-col justify-center startup-s-container ">
-                    <img className='w-[20%] lg:w-[15%]' src="/images/startups/miket/brand.png" alt="" />
+                    <img className='w-[20%] lg:w-[15%] h-auto' src="/images/startups/miket/brand.png" alt="" />
                     <div className="grid grid-cols-12 md:gap-3 mt-10 ">
                         <div className="col-span-12 lg:col-span-6">
                             <img src="/images/startups/miket/2.png" className='w-full' alt="" />
