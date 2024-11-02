@@ -6,8 +6,8 @@ function Activities() {
             <h1 className='composebold activities-main-title'>OTHER ACTIVITIES</h1>
             <div className='w-[80%]'>
                 <hr />
-                <div className="grid grid-cols-12 gap-10 mt-10">
-                    <div className="col-span-12 lg:col-span-6 activities-containers">
+                <div className="grid grid-cols-12 lg:gap-10 mt-10">
+                    <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
                         <h1 className="activities-titles">Coding Club</h1>
                         <p className="activities-p codec ">
                             Established the coding club at "Xhevdet Doda" High School and organized it into
