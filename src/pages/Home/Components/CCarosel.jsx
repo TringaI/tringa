@@ -31,7 +31,7 @@ const CCarosel = () => {
     }, []);
 
     return (
-        <div className="main-cont lg:h-[130vh] lg:h-[100vh] mt-20">
+        <div className="main-cont lg:h-[100vh] mt-20">
             <section className="main">
                 <div className="outer" ref={carouselRef}>
                     <div className="inner">
@@ -46,12 +46,12 @@ const CCarosel = () => {
                     </div>
                     <div className="inner">
                         <div className="slide">
-                            <img src="/images/carosel-images/img3.jpg" alt="" />
+                            <img src="/images/carosel-images/image.png" alt="" />
                         </div>
                     </div>
                     <div className="inner">
                         <div className="slide">
-                            <img src="/images/carosel-images/image.png" alt="" />
+                            <img src="/images/carosel-images/img3.jpg" alt="" />
                         </div>
                     </div>
                 </div>
