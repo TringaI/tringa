@@ -51,7 +51,25 @@ function Activities() {
 
                     </div>
 
-                    <div className="col-span-12 lg:col-span-6  activities-containers my-5 lg:my-0">
+                    <div className="col-span-12 lg:col-span-6 center-all activities-containers my-5 lg:my-0">
+                        <h1 className="activities-titles composebold ">Sports</h1>
+                        <p className="activities-p codec ">
+                            Initiated my basketball journey at the age of <b className='composebold'>8</b>, dedicating eight years to the sport and participating in the state junior championship. Simultaneously, I developed an interest in karate, commencing practice in first grade and concluding in the fifth grade, achieving success with a total of  <b className='composebold'>13</b>, medals in various competitions and  <b className='composebold'>20+</b>, certificates.
+                        </p>
+                        <img className='mt-5 w-[80%]' src="/images/activities/karate.png" alt="" />
+
+                    </div>
+
+                    <div className="col-span-12 lg:col-span-6 center-all activities-containers my-5 lg:my-0">
+                        <h1 className="activities-titles composebold ">Other Engagements</h1>
+                        <p className="activities-p codec ">
+                            Engaged in diverse volunteering and environmental programs, notably contributing to "Mendo per token." Joined "Prishtina Hacker Space," actively participating in various activities and attending tech conferences. Also appointed as an ambassador at "Engineering Her Future" and volunteered as a tutor at the "House of STEM.
+                        </p>
+                        <img className='mt-5 w-[80%]' src="/images/activities/robot.png" alt="" />
+
+                    </div>
+
+                    <div className="col-span-12 lg:col-span-6 center-all  activities-containers my-5 lg:my-0">
                         <h1 className="activities-titles composebold ">Music</h1>
                         <p className="activities-p codec ">
                             Completed a comprehensive <b className='composebold'>9</b>-year program at the Elementary Music School, initiating studies at "Lorenc Antoni" in Prizren and later continuing to the public music school "Prenk Jakova" in Pristina. Participated in various musical programs throughout elementary and high school.
@@ -59,7 +77,7 @@ function Activities() {
                         </p>
                     </div>
 
-                    <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
+                    <div className="col-span-12 lg:col-span-6 items-center flex flex-col activities-containers my-5 lg:my-0">
                         <h1 className="activities-titles composebold ">Exchange Programs</h1>
                         <p className="activities-p codec ">
 
@@ -70,19 +88,7 @@ function Activities() {
 
 
 
-                    <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
-                        <h1 className="activities-titles composebold ">Sports</h1>
-                        <p className="activities-p codec ">
-                            Initiated my basketball journey at the age of <b className='composebold'>8</b>, dedicating eight years to the sport and participating in the state junior championship. Simultaneously, I developed an interest in karate, commencing practice in first grade and concluding in the fifth grade, achieving success with a total of  <b className='composebold'>13</b>, medals in various competitions and  <b className='composebold'>20+</b>, certificates.
-                        </p>
-                    </div>
-
-                    <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
-                        <h1 className="activities-titles composebold ">Other Engagements</h1>
-                        <p className="activities-p codec ">
-                            Engaged in diverse volunteering and environmental programs, notably contributing to "Mendo per token." Joined "Prishtina Hacker Space," actively participating in various activities and attending tech conferences. Also appointed as an ambassador at "Engineering Her Future" and volunteered as a tutor at the "House of STEM.
-                        </p>
-                    </div>
+                    
                 </div>
             </div>
         </div>

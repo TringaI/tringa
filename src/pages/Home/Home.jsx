@@ -12,7 +12,7 @@ function Index() {
                 <img src="/images/me/tringaLogo.png" className='w-[5%] lg:w-[3%]' alt="" />
 
                 <h3 className="codec second-heading mt-5">Tech Developer</h3>
-                <h1 className="title text-[20vw] lg:text-[8vw] composebold w-full text-center">TRINGA IBRAHIMI</h1>
+                <h1 className="title text-[18vw] lg:text-[8vw] composebold w-full text-center">TRINGA IBRAHIMI</h1>
             </div>
             <CCarosel />
 
