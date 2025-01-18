@@ -19,7 +19,12 @@
     background-color: #0c0107;
     position: relative; // Ensure the container is positioned relatively for absolute positioning inside it
 }
-
+.center-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .home-p{
     color: white;
     font-size: 2.5rem;

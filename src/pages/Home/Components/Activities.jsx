@@ -32,19 +32,30 @@ function Activities() {
                     </div>
 
 
-                    <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
+
+                    <div className="col-span-12 lg:col-span-6 center-all activities-containers my-5 lg:my-0">
+                        <h1 className="activities-titles composebold ">Other Clubs</h1>
+                        <p className="activities-p codec ">
+                            Throughout my student life, I actively participated in a variety of clubs, including Robotics, Technology, Mediation, Mathematics, Acting, Physics, and the Debate Club.
+                        </p>
+                        <img className='mt-5 w-[80%]' src="/images/activities/mediation.png" alt="" />
+
+                    </div>
+
+                    <div className="col-span-12 lg:col-span-6 center-all activities-containers my-5 lg:my-0">
+                        <h1 className="activities-titles composebold ">KosCare</h1>
+                        <p className="activities-p codec ">
+                            Created "Koscare," a platform dedicated to ending poverty. Through our website, individuals can contribute directly, and we also generate funds through various activities and the sale of handmade items.
+                        </p>
+                        <img className='mt-5 w-[80%]' src="/images/activities/koscare.png" alt="" />
+
+                    </div>
+
+                    <div className="col-span-12 lg:col-span-6  activities-containers my-5 lg:my-0">
                         <h1 className="activities-titles composebold ">Music</h1>
                         <p className="activities-p codec ">
                             Completed a comprehensive <b className='composebold'>9</b>-year program at the Elementary Music School, initiating studies at "Lorenc Antoni" in Prizren and later continuing to the public music school "Prenk Jakova" in Pristina. Participated in various musical programs throughout elementary and high school.
                             Additionally, alongside the primary instrument curriculum in public schools, I undertook a dedicated guitar course.
-                        </p>
-                    </div>
-
-
-                    <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
-                        <h1 className="activities-titles composebold ">KosCare</h1>
-                        <p className="activities-p codec ">
-                            Created "Koscare," a platform dedicated to ending poverty. Through our website, individuals can contribute directly, and we also generate funds through various activities and the sale of handmade items.
                         </p>
                     </div>
 
@@ -57,12 +68,7 @@ function Activities() {
                     </div>
 
 
-                    <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
-                        <h1 className="activities-titles composebold ">Other Clubs</h1>
-                        <p className="activities-p codec ">
-                            Throughout my student life, I actively participated in a variety of clubs, including Robotics, Technology, Mediation, Mathematics, Acting, Physics, and the Debate Club.
-                        </p>
-                    </div>
+
 
                     <div className="col-span-12 lg:col-span-6 activities-containers my-5 lg:my-0">
                         <h1 className="activities-titles composebold ">Sports</h1>
