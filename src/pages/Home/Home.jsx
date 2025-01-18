@@ -9,7 +9,7 @@ function Index() {
     return (
         <div className='w-full flex flex-col justify-center items-center'>
             <div className="w-full pt-20 flex flex-col items-center justify-center">
-            <img src="/images/me/tringaLogo.png" className='w-[5%] lg:w-[3%]' alt="" />
+                <img src="/images/me/tringaLogo.png" className='w-[5%] lg:w-[3%]' alt="" />
 
                 <h3 className="codec second-heading mt-5">Tech Developer</h3>
                 <h1 className="title text-[20vw] lg:text-[8vw] composebold w-full text-center">TRINGA IBRAHIMI</h1>
@@ -52,22 +52,43 @@ function Index() {
                             <img src="/images/startups/miket/4.png" className='w-full' alt="" />
                         </div>
                     </div>
-                    
-                        <div className="col-span-12 lg:col-span-12">
-                            <p className='startup-p codec text-[15px] lg:text-[18px] mt-5'>
-                                Miket, meaning “girlfriends,” is a software platform fostering collaboration among
-                                women in ICT. While our primary mission is to empower women, we’re dedicated to supporting
-                                the entire ICT community. We’ve organized hackathons, internships, and conferences to create
-                                opportunities for everyone interested in ICT. So far, we’ve successfully launched a branch at
-                                the University of Pristina in collobartion with USAID, and are excited about future expansions. We’re grateful for the support
-                                of major sponsors, including Kodelabs, Red Bull, Gjirafa, and KosovaJob.
-                                <br />
-                                <a href="https://miket.vercel.app/"><b>Visit Website</b></a>
 
-                            </p>
-                        </div>
+                    <div className="col-span-12 lg:col-span-12">
+                        <p className='startup-p codec text-[15px] lg:text-[18px] mt-5'>
+                            Miket, meaning “girlfriends,” is a software platform fostering collaboration among
+                            women in ICT. While our primary mission is to empower women, we’re dedicated to supporting
+                            the entire ICT community. We’ve organized hackathons, internships, and conferences to create
+                            opportunities for everyone interested in ICT. So far, we’ve successfully launched a branch at
+                            the University of Pristina in collobartion with USAID, and are excited about future expansions. We’re grateful for the support
+                            of major sponsors, including Kodelabs, Red Bull, Gjirafa, and KosovaJob.
+                            <br />
+                            <a href="https://miket.vercel.app/"><b>Visit Website</b></a>
+
+                        </p>
+                    </div>
                 </div>
 
+                {/* miket */}
+                <div className="fotoel-container mt-10 flex flex-col justify-center items-end startup-s-container ">
+                    
+                    <img className='w-[10%] lg:w-[8%] h-auto' src="/images/startups/tieducation/tieducation_logo.png" alt="" />
+                    <div className="grid grid-cols-12 md:gap-5 mt-10 ">
+                        <div className="col-span-12 lg:col-span-6">
+                            <img src="/images/startups/tieducation/tieducation.png" className='w-full' alt="" />
+
+                        </div>
+                        <div className="col-span-12 lg:col-span-6">
+                        <p className='startup-p codec text-[15px] lg:text-[18px] mt-5'>
+                            Tieducation is a digital platform designed to enhance and simplify learning experiences
+                            through different tools such as collaborative <b className='composebold s-t-b'>2D</b> and <b className='composebold s-t-b'>3D</b> educational games, quizes,
+                            competitions, illustrative videos etc..
+
+                        </p>
+                        </div>
+                    </div>
+
+                    
+                </div>
 
             </div>
             <div className='w-[80%] mt-20'>
@@ -87,7 +108,7 @@ function Index() {
             </div>
 
             <Awards />
-            <Work/>
+            <Work />
             <Activities />
             <Footer />
         </div>
